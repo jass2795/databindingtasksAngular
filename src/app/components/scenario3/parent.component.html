@@ -1,0 +1,3 @@
+<h2>Parent to child</h2><input type="textbox" #parent/>
+<button (click) = "childToParent(parent.value)">submit</button> 
+<app-component-two [parenttochild]="parent"></app-component-two>
