@@ -1,0 +1,4 @@
+<h2>ChildOne input</h2>
+<input #child type = "text" (keyup) = "getMessage(child.value)" />
+    <button (click)="newMessage()">New Message</button>
+    {{message}}

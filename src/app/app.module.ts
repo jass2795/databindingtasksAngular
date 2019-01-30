@@ -1,3 +1,5 @@
+import { ParentSiblingComponent } from './components/scenario6Service/parent.component';
+import { SiblingComponent } from './components/scenario6Service/child1.component';
 import { Parent6Component } from './components/scenario6/parent.component';
 import { ChildTwoComponent } from './components/scenario6/child2.component';
 import { ChildOneComponent } from './components/scenario6/child1.component';
@@ -29,7 +31,9 @@ import { GrandparentComponent } from './components/scenario5/grandparent.compone
     Child5Component,
     ChildOneComponent,
     ChildTwoComponent,
-    Parent6Component
+    Parent6Component,
+    SiblingComponent,
+    ParentSiblingComponent
   ],
   imports: [
     BrowserModule
